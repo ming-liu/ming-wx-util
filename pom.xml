@@ -11,6 +11,7 @@
 
 	<properties>
 		<project.encoding>UTF-8</project.encoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
@@ -28,13 +29,8 @@
 		<dependency>
 		    <groupId>org.apache.httpcomponents</groupId>
 		    <artifactId>httpclient</artifactId>
-		    <version>4.5.6</version>
+		    <version>4.5.10</version>
 		</dependency>
-		<dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpasyncclient</artifactId>
-            <version>4.1.4</version>
-        </dependency>
         <dependency>
 		    <groupId>com.ming</groupId>
 		    <artifactId>ming-util</artifactId>
@@ -46,9 +42,9 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.0</version>
+				<version>3.8.1</version>
 				<configuration>
-					<release>10</release>
+					<release>11</release>
 				</configuration>
 			</plugin>
 		</plugins>
